@@ -1,0 +1,17 @@
+{
+    "name": "qr-dashboard-server",
+    "version": "1.0.0",
+    "description": "Express API that turns a link into a QR code",
+    "private": true,
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "node --watch server.js"
+    },
+    "type": "commonjs",
+    "dependencies": {
+        "cors": "^2.8.6",
+        "express": "^5.2.1",
+        "qrcode": "^1.5.4"
+    }
+}
